@@ -253,3 +253,51 @@ p{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+/* by mayank */
+@media only screen and (max-width : 450px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        display: none;
+    }
+        .left-section{
+            margin-left: 20px;
+        }
+        .searchbar{
+            display: none;
+        }
+        .search-button{
+            /* background-color: white; */
+            border: none;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+
+        }
+        .middle-section{
+            padding-left: 20vw;
+        }
+    .right-section{
+        display: none;
+    }
+    /* .sidebar{
+        background-color: white;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: ;
+        z-index: 200;
+    } */
+    .vdo-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .preview{
+        width: 100%;
+    }
+}
